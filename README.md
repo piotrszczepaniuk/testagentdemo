@@ -33,6 +33,22 @@ Files:
 
 Cursor orchestrator rule uses these as authoritative definitions.
 
+### Updating Playwright Agents
+
+To update the Playwright agent files in the future, run:
+
+```bash
+npx playwright init-agents --loop=vscode
+```
+
+This will regenerate the agent files:
+- `.github/chatmodes/planner.chatmode.md`
+- `.github/chatmodes/generator.chatmode.md`
+- `.github/chatmodes/healer.chatmode.md`
+- `.vscode/mcp.json`
+
+**Note:** After updating, review any changes to ensure compatibility with the Cursor orchestrator rules in `.cursor/rules/testagent.mdc`.
+
 ---
 
 ## How to Use in Cursor
