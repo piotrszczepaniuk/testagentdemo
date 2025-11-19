@@ -7,8 +7,8 @@ Demonstrate a simple, minimal Agentic QA Workflow using:
 - Playwright AI agents (Planner, Generator, Healer)
 - Cursor orchestrator rule
 - Public demo targets:
-  - https://www.saucedemo.com/
-  - https://petstore.swagger.io/
+  - https://www.saucedemo.com/ (UI)
+  - https://petstore.swagger.io/ (API)
 
 The workflow must automatically generate:
 
